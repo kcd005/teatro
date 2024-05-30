@@ -1,0 +1,107 @@
+.caudex-regular 
+{
+    font-family: "Caudex", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.caudex-bold 
+{
+    font-family: "Caudex", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+.caudex-regular-italic 
+{
+    font-family: "Caudex", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+.caudex-bold-italic 
+{
+    font-family: "Caudex", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+
+body 
+{
+    font-family: "Caudex", Arial;
+    margin: 0;
+    padding-top: 35px;
+    padding-left: 240px;
+    background-color: #a12928;
+}
+
+#DivPrincipale 
+{
+    max-width: 600px;
+    margin: 0 auto;
+    margin-left: 330px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+h1 
+{
+    margin-left: 365px;
+    font-size: 40px;
+    color: #fff; 
+    margin-right: 0px;
+    padding: 25px;
+    margin-top: 43px;
+    text-align: center;
+    max-width: fit-content;
+    text-shadow: 0 0 5px rgb(0,0,0,0.7)
+}
+
+label 
+{
+    color: white;
+    display: block;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+    text-shadow: 0 0 5px rgb(0,0,0,0.7)
+}
+
+#labelCitta
+{
+    
+}
+
+select, input[type="date"], input[type="submit"]
+{
+    font-size: 16px;
+    text-align: center;
+    width: calc(70% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+button 
+{
+    background-color: #484848;
+    color: #fff;
+    width: 110px;
+    padding: 8px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover 
+{
+    background-color: #333;
+    padding: 10px 0px;
+    width: 150px;
+}

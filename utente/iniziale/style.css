@@ -1,0 +1,104 @@
+.caudex-regular 
+{
+    font-family: "Caudex", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.caudex-bold 
+{
+    font-family: "Caudex", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.caudex-regular-italic 
+{
+    font-family: "Caudex", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.caudex-bold-italic 
+{
+    font-family: "Caudex", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+*
+{
+    font-family: "Caudex", serif;
+}
+
+body
+{
+    background-color: #a12928;
+    margin-right: -20px;
+    width: 100%;    
+}
+#corpo
+{
+    padding-top: 120px;
+}
+
+footer
+{
+    margin-left: 600px;
+}
+
+h2
+{
+    margin-top: 180px;
+    margin-bottom: 60px;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 0 0 4px rgba(212, 175, 55, 1);
+    color: #d4af37;
+}
+
+b
+{
+    color: #d4af37;
+}
+
+p, li
+{
+    color: mintcream;
+    font-size: 23px;
+    padding: 0px 20px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+#fine
+{
+    color: mintcream;
+    margin-top: 30px;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    margin-bottom: -50px;
+}
+
+#menu.shrink {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#logo {
+    transition: opacity 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+
+#logo.hidden {
+    opacity: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.link {
+    transition: font-size 0.3s ease-in-out, padding 0.3s ease-in-out;
+}
+
+#menu.shrink .link {
+    font-size: 16px;
+    padding: 5px;
+}
+

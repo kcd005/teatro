@@ -1,0 +1,139 @@
+.caudex-regular 
+{
+    font-family: "Caudex", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.caudex-bold 
+{
+    font-family: "Caudex", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.caudex-regular-italic 
+{
+    font-family: "Caudex", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.caudex-bold-italic 
+{
+    font-family: "Caudex", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+body
+{
+    font-family: "Caudex", serif;
+    padding: 0;
+    margin: 0;
+    background-color: #a12928;
+    height: 100%;
+}
+#div1
+{
+    background-color: #1c1c1c;
+    height: 140px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    padding: 0 20px;
+    color: mintcream;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+a
+{
+    font-size: 23px;
+    text-decoration: none;
+    color: mintcream;
+    cursor:pointer;
+}
+
+#logo 
+{
+    margin-top:12px;
+    margin-right: 30px;
+    width: 120px;
+    height: auto;
+}
+#formID
+{
+    text-align: center;
+}
+h1
+{
+    margin-left: 668px;
+    padding-top: 30px;
+}
+#torna
+{
+    margin-left: 20px;
+    padding-top: 55px;
+}
+.profilo 
+{
+    max-width: 550px;
+    margin: 10px auto;
+    padding: 23px;
+    height: 400px;
+    margin-top: 170px;
+}
+
+.infoProfilo {
+    background-color:mintcream;
+    padding: 7px 25px;
+    border-radius:8px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+
+.campoProfilo {
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.campoProfilo:last-child {
+    border-bottom: none;
+}
+
+.etichettaCampo {
+    font-weight: bold;
+    color: #333;
+}
+
+.valoreCampo {
+    color: #555;
+    text-align: right;
+    font-size: 17px;
+}
+
+.anchor
+{
+    color: mintcream;
+    font-size: 18px;
+    transition-duration: 300ms;
+    width: fit-content;
+}
+
+.anchor:hover
+{
+    font-size: 20px;
+    color: rgb(96, 21, 21);
+}
+
+#copyright
+{
+    margin-bottom: 0px;
+}
+
+main
+{
+    text-align: center;
+}
